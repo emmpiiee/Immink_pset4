@@ -12,6 +12,9 @@ class DetailViewController: UIViewController {
 
     @IBOutlet weak var detailDescriptionLabel: UILabel!
 
+    @IBAction func sendMessage(sender: AnyObject) {
+        TodoManager.sharedInstance.printHello()
+    }
 
     var detailItem: AnyObject? {
         didSet {
@@ -42,4 +45,3 @@ class DetailViewController: UIViewController {
 
 
 }
-

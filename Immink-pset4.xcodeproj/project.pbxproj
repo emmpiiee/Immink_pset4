@@ -15,6 +15,8 @@
 		B5F7F6A21CE36EBD00328381 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5F7F6A01CE36EBD00328381 /* LaunchScreen.storyboard */; };
 		B5F7F6AD1CE36EBD00328381 /* Immink_pset4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F7F6AC1CE36EBD00328381 /* Immink_pset4Tests.swift */; };
 		B5F7F6B81CE36EBD00328381 /* Immink_pset4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F7F6B71CE36EBD00328381 /* Immink_pset4UITests.swift */; };
+		B5F7F6CA1CE3742E00328381 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F7F6C91CE3742E00328381 /* Manager.swift */; };
+		B5F7F6D91CE37CF600328381 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F7F6D81CE37CF600328381 /* CustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		B5F7F6B31CE36EBD00328381 /* Immink-pset4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Immink-pset4UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5F7F6B71CE36EBD00328381 /* Immink_pset4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Immink_pset4UITests.swift; sourceTree = "<group>"; };
 		B5F7F6B91CE36EBD00328381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5F7F6C91CE3742E00328381 /* Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		B5F7F6D81CE37CF600328381 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +103,11 @@
 		B5F7F6941CE36EBD00328381 /* Immink-pset4 */ = {
 			isa = PBXGroup;
 			children = (
+				B5F7F6C71CE36EFB00328381 /* controller */,
+				B5F7F6C61CE36EF400328381 /* view */,
+				B5F7F6C51CE36EED00328381 /* model */,
 				B5F7F6951CE36EBD00328381 /* AppDelegate.swift */,
-				B5F7F6971CE36EBD00328381 /* MasterViewController.swift */,
-				B5F7F6991CE36EBD00328381 /* DetailViewController.swift */,
-				B5F7F69B1CE36EBD00328381 /* Main.storyboard */,
 				B5F7F69E1CE36EBD00328381 /* Assets.xcassets */,
-				B5F7F6A01CE36EBD00328381 /* LaunchScreen.storyboard */,
 				B5F7F6A31CE36EBD00328381 /* Info.plist */,
 			);
 			path = "Immink-pset4";
@@ -126,6 +129,33 @@
 				B5F7F6B91CE36EBD00328381 /* Info.plist */,
 			);
 			path = "Immink-pset4UITests";
+			sourceTree = "<group>";
+		};
+		B5F7F6C51CE36EED00328381 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				B5F7F6C91CE3742E00328381 /* Manager.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		B5F7F6C61CE36EF400328381 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				B5F7F69B1CE36EBD00328381 /* Main.storyboard */,
+				B5F7F6A01CE36EBD00328381 /* LaunchScreen.storyboard */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		B5F7F6C71CE36EFB00328381 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				B5F7F6971CE36EBD00328381 /* MasterViewController.swift */,
+				B5F7F6991CE36EBD00328381 /* DetailViewController.swift */,
+				B5F7F6D81CE37CF600328381 /* CustomCell.swift */,
+			);
+			name = controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,7 +291,9 @@
 			files = (
 				B5F7F69A1CE36EBD00328381 /* DetailViewController.swift in Sources */,
 				B5F7F6981CE36EBD00328381 /* MasterViewController.swift in Sources */,
+				B5F7F6D91CE37CF600328381 /* CustomCell.swift in Sources */,
 				B5F7F6961CE36EBD00328381 /* AppDelegate.swift in Sources */,
+				B5F7F6CA1CE3742E00328381 /* Manager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
