@@ -170,7 +170,6 @@
                     <navigationItem key="navigationItem" title="Master" id="Zdf-7t-Un8">
                         <barButtonItem key="rightBarButtonItem" title="Item" id="ruu-re-47Z">
                             <connections>
-                                <action selector="addButton:" destination="7bK-jq-Zjz" id="ver-nm-Fa3"/>
                                 <segue destination="Wys-Ol-GRg" kind="show" id="XkB-YF-c9N"/>
                             </connections>
                         </barButtonItem>

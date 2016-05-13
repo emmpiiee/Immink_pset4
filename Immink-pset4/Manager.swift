@@ -94,7 +94,6 @@ class TodoManager {
                 let rowId = try db!.run(insert)
                 print(rowId)
                 ReadTable()
-//                tableView.reloadData()
             } catch {
                 print("Item not added: \(error)")
             }
