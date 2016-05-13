@@ -1,19 +1,20 @@
 //
-//  CustomCell.swift
+//  CustomCell2.swift
 //  Immink-pset4
 //
-//  Created by Emma Immink on 11-05-16.
+//  Created by Emma Immink on 13-05-16.
 //  Copyright © 2016 Emma Immink. All rights reserved.
 //
 
 import UIKit
-import SQLite
 
-class CustomCell: UITableViewCell {
+class CustomCell2: UITableViewCell {
 
-    @IBOutlet weak var Title: UIView!
+    @IBOutlet weak var AddingField: UITextField!
     
-    
+    @IBAction func AddButtonClicked(sender: AnyObject) {
+        print("add button clicked")
+    }
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
