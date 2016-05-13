@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B509ECEE1CE5DD2500B0BA36 /* AddingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B509ECED1CE5DD2500B0BA36 /* AddingViewController.swift */; };
 		B509ED071CE5EA9A00B0BA36 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B509ECFA1CE5EA8000B0BA36 /* SQLite.framework */; };
+		B509ED091CE61DE300B0BA36 /* CustomCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B509ED081CE61DE300B0BA36 /* CustomCell2.swift */; };
 		B5F7F6961CE36EBD00328381 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F7F6951CE36EBD00328381 /* AppDelegate.swift */; };
 		B5F7F6981CE36EBD00328381 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F7F6971CE36EBD00328381 /* MasterViewController.swift */; };
 		B5F7F69A1CE36EBD00328381 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F7F6991CE36EBD00328381 /* DetailViewController.swift */; };
@@ -90,6 +91,7 @@
 /* Begin PBXFileReference section */
 		B509ECED1CE5DD2500B0BA36 /* AddingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddingViewController.swift; sourceTree = "<group>"; };
 		B509ECEF1CE5EA8000B0BA36 /* SQLite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SQLite.xcodeproj; path = "External/SQLite.swift-master/SQLite.xcodeproj"; sourceTree = "<group>"; };
+		B509ED081CE61DE300B0BA36 /* CustomCell2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell2.swift; sourceTree = "<group>"; };
 		B5F7F6921CE36EBD00328381 /* Immink-pset4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Immink-pset4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5F7F6951CE36EBD00328381 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5F7F6971CE36EBD00328381 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -224,6 +226,7 @@
 				B509ECED1CE5DD2500B0BA36 /* AddingViewController.swift */,
 				B5F7F6991CE36EBD00328381 /* DetailViewController.swift */,
 				B5F7F6D81CE37CF600328381 /* CustomCell.swift */,
+				B509ED081CE61DE300B0BA36 /* CustomCell2.swift */,
 			);
 			name = controller;
 			sourceTree = "<group>";
@@ -420,6 +423,7 @@
 				B5F7F69A1CE36EBD00328381 /* DetailViewController.swift in Sources */,
 				B5F7F6981CE36EBD00328381 /* MasterViewController.swift in Sources */,
 				B5F7F6D91CE37CF600328381 /* CustomCell.swift in Sources */,
+				B509ED091CE61DE300B0BA36 /* CustomCell2.swift in Sources */,
 				B5F7F6961CE36EBD00328381 /* AppDelegate.swift in Sources */,
 				B5F7F6CA1CE3742E00328381 /* Manager.swift in Sources */,
 				B509ECEE1CE5DD2500B0BA36 /* AddingViewController.swift in Sources */,

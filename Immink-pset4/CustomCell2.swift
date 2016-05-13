@@ -10,11 +10,8 @@ import UIKit
 
 class CustomCell2: UITableViewCell {
 
-    @IBOutlet weak var AddingField: UITextField!
-    
-    @IBAction func AddButtonClicked(sender: AnyObject) {
-        print("add button clicked")
-    }
+    @IBOutlet weak var textNote: UIView!
+ 
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

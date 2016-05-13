@@ -45,6 +45,9 @@ class MasterViewController: UITableViewController {
                 let object = TodoManager.sharedInstance.todolist[indexPath.row]
                 let controller = (segue.destinationViewController as! UINavigationController).topViewController as! DetailViewController
                 controller.detailItem = object
+                print("de objecy is ", object)
+                TodoManager.sharedInstance.whichObject = object
+                print("de whichobject is ", TodoManager.sharedInstance.whichObject)
                 controller.navigationItem.leftBarButtonItem = self.splitViewController?.displayModeButtonItem()
                 controller.navigationItem.leftItemsSupplementBackButton = true
             }

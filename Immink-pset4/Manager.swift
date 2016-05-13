@@ -18,18 +18,14 @@ class TodoManager {
     let notes = Table("notes")
     let id = Expression<Int64>("id")
     let note = Expression<String>("note")
-    
-    var listnote = String()
+
+    var whichObject = String()
     
     var todolist = Array<String> ()
     
     
     func printHello(){
         print("Helloo")
-    }
-    
-    func addListNote (listNote: String){
-        listnote = listNote
     }
     
     // set up database

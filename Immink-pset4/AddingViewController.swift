@@ -29,7 +29,6 @@ class AddingViewController: UIViewController {
         print("Button clicked")
         TodoManager.sharedInstance.SaveToDatabase(addingField.text!)
         addingField.text = ""
-        TodoManager.sharedInstance.addListNote(addingField.text!)
         TodoManager.sharedInstance.ReadTable()
         print(TodoManager.sharedInstance.todolist)
         print(TodoManager.sharedInstance.todolist.count)
